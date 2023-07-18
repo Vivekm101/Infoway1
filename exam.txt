@@ -1,0 +1,23 @@
+package exam;
+import java.util.Arrays;
+
+
+public class Sort {
+	
+	
+	
+	    public static void main(String[] args) {
+	        
+	        int[] arr = {100,14,46,47,94,52,86,36,94,89};
+	        
+	        
+	        Arrays.sort(arr);
+	        
+	        
+	        int secondHighest = arr[arr.length - 2];
+	        
+	      
+	        System.out.println("The second highest number in the array is: " + secondHighest);
+	    }
+	
+}
